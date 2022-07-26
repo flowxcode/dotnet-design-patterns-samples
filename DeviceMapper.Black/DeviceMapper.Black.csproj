@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DeviceMapper\DeviceMapper.csproj">
-      <Project>{d4764070-6725-4aae-8ec8-0652d04426db}</Project>
-      <Name>DeviceMapper</Name>
+    <ProjectReference Include="..\DeviceMapper.Base\DeviceMapper.Base.csproj">
+      <Project>{4d4cc0a4-6139-4a1b-abed-bbd42015bd38}</Project>
+      <Name>DeviceMapper.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

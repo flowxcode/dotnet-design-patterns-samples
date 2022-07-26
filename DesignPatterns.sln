@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMapper.Black", "Devic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMapper.White", "DeviceMapper.White\DeviceMapper.White.csproj", "{457EF934-28AF-41D3-9708-868F0704ED83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMapper.Base", "DeviceMapper.Base\DeviceMapper.Base.csproj", "{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{457EF934-28AF-41D3-9708-868F0704ED83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457EF934-28AF-41D3-9708-868F0704ED83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457EF934-28AF-41D3-9708-868F0704ED83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{D4764070-6725-4AAE-8EC8-0652D04426DB} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{CF55FB7D-9DAE-4212-B77A-496E23F9A867} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{457EF934-28AF-41D3-9708-868F0704ED83} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
+		{4D4CC0A4-6139-4A1B-ABED-BBD42015BD38} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6681712-707F-431E-9E4C-A9A9F8F5FA96}

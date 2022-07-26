@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeviceMapper
+namespace DeviceMapper.Base
 {
     public interface IDeviceConfiguration : ISerializable
     {
