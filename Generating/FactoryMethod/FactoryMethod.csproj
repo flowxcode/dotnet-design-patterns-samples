@@ -68,7 +68,12 @@
     <None Include="App.config" />
     <None Include="DeviceMapper.config.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\DeviceMapper\DeviceMapper.csproj">
+      <Project>{D4764070-6725-4AAE-8EC8-0652D04426DB}</Project>
+      <Name>DeviceMapper</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FactoryMethodResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

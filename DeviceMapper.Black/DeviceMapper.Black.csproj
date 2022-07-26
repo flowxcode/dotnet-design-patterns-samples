@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4764070-6725-4AAE-8EC8-0652D04426DB}</ProjectGuid>
+    <ProjectGuid>{CF55FB7D-9DAE-4212-B77A-496E23F9A867}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DeviceMapper</RootNamespace>
-    <AssemblyName>DeviceMapper</AssemblyName>
+    <RootNamespace>DeviceMapper.Black</RootNamespace>
+    <AssemblyName>DeviceMapper.Black</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IADevice.cs" />
-    <Compile Include="IDeviceConfiguration.cs" />
-    <Compile Include="DeviceMapper.cs" />
-    <Compile Include="IDeviceMapper.cs" />
+    <Compile Include="BlackDevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceMapper\DeviceMapper.csproj">
+      <Project>{d4764070-6725-4aae-8ec8-0652d04426db}</Project>
+      <Name>DeviceMapper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

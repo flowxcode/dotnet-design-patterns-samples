@@ -14,7 +14,7 @@ namespace DeviceMapper
 
         IList<IDeviceConfiguration> FindDevicesFromConfig();
 
-        IDeviceConfiguration GetConfiguration(DeviceMapperProtocol protocol, string config, Type t);
+        //IDeviceConfiguration GetConfiguration(DeviceMapperProtocol protocol, string config, Type t);
 
     }
 }
