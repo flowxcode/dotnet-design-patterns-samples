@@ -2,6 +2,7 @@
 using FactoryMethod.Impl;
 using FactoryMethod.Abstract;
 using FactoryMethod.Entities.Enums;
+using DeviceMapper;
 
 namespace FactoryMethod
 {
@@ -15,6 +16,11 @@ namespace FactoryMethod
 			}
 
 			Console.WriteLine("Please enter any key to exit...");
+			//Console.ReadKey();
+
+            var dm = new DeviceMapper.DeviceMapper(); // DeviceFactory
+
+
 			Console.ReadKey();
 		}
 

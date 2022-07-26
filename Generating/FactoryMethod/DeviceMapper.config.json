@@ -1,0 +1,15 @@
+{
+  "DeviceMapper": {
+    "Devices": [
+      {
+        "Device": "devi",
+        "Protocol": "Tx",
+        "AutoPowerOn": false,
+        "Parameters": {
+          "Port": "11131",
+          "Node": "129"
+        }
+      }
+    ]
+  }
+}
