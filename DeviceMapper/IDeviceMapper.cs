@@ -17,5 +17,6 @@ namespace DeviceMapper
 
         //IDeviceConfiguration GetConfiguration(DeviceMapperProtocol protocol, string config, Type t);
 
+        // TODO fcts
     }
 }
